@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require 'alexpass'
-require 'optparse'
-require 'yaml'
+require 'alexpass' # for actually generating the Alexpass passwords
+require 'optparse' # for command-line options parsing
+require 'yaml'     # for loading the YAML configuration file, if present
 
 # YAML configuration file overrides the defaults below
 CONFIGURATION_FILE = "#{ENV['HOME']}/.alexpass.yaml"
