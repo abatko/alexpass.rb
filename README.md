@@ -17,7 +17,7 @@ Setup
 -----
 
  * `gem install alexpass optparse yaml` # install the dependencies
- * `curl -O https://raw.github.com/abatko/alexpass.rb/master/alexpass.rb` # download this Ruby script (`alexpass.rb`)
+ * `curl -O https://raw.github.com/abatko/alexpass.rb/master/alexpass.rb` # download this Ruby program
  * `mv ~/Downloads/alexpass.rb ~/bin/` # place this script in a suitable directory
  * `chmod u+x ~/bin/alexpass.rb` # give yourself permission to execute this script
 
@@ -53,12 +53,12 @@ Overrides program defaults.
 
 ### Command-line super override
 
-Overrides everything above. See *Command-line Options* above.
+Command-line options override everything mentioned above. See *Command-line Options* above.
 
 Examples
 --------
 
-These examples assume `alexpass.rb` is executable and in a directory in PATH, and the above mentioned *Configuration* section is in effect.
+These examples assume `alexpass.rb` is executable and in a directory in `PATH`, and the above mentioned *Configuration* section is in effect.
 
     $ alexpass.rb 
     nF7zHTNrjtYRmxod
