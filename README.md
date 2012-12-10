@@ -16,9 +16,8 @@ Dependencies
 Setup
 -----
 
- * `gem install alexpass`
- * `gem install optparse yaml` # the dependencies
- * download this Ruby script (`alexpass.rb`)
+ * `gem install alexpass optparse yaml` # install the dependencies
+ * `curl -O https://raw.github.com/abatko/alexpass.rb/master/alexpass.rb` # download this Ruby script (`alexpass.rb`)
  * `mv ~/Downloads/alexpass.rb ~/bin/` # place this script in a suitable directory
  * `chmod u+x ~/bin/alexpass.rb` # give yourself permission to execute this script
 
