@@ -1,4 +1,4 @@
-A Ruby program for generating [Alexpass] passwords from the command line
+A Ruby program for generating [Alexpass](https://github.com/abatko/alexpass) passwords from the command line
 
 Example
 --------
