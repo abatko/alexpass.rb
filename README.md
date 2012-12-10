@@ -6,17 +6,10 @@ Example
     $ alexpass.rb 
     nF7zHTNrjtYRmxod
 
-Dependencies
-------------
-
-    require 'alexpass' # for actually generating the Alexpass passwords
-    require 'optparse' # for command-line options parsing
-    require 'yaml'     # for loading the YAML configuration file, if present
-
 Setup
 -----
 
- * `gem install alexpass optparse yaml` # install the dependencies
+ * `gem install alexpass` # install the associated gem dependencies
  * `curl -O https://raw.github.com/abatko/alexpass.rb/master/alexpass.rb` # download this Ruby program
  * `mv ~/Downloads/alexpass.rb ~/bin/` # place this program in a suitable directory
  * `chmod u+x ~/bin/alexpass.rb` # give yourself permission to execute this program
