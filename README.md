@@ -1,4 +1,4 @@
-A Ruby program for generating [Alexpass](https://github.com/abatko/alexpass) passwords from the command line
+A command-line Ruby program for generating [Alexpass](https://github.com/abatko/alexpass) passwords
 
 Example
 --------
@@ -18,8 +18,8 @@ Setup
 
  * `gem install alexpass optparse yaml` # install the dependencies
  * `curl -O https://raw.github.com/abatko/alexpass.rb/master/alexpass.rb` # download this Ruby program
- * `mv ~/Downloads/alexpass.rb ~/bin/` # place this script in a suitable directory
- * `chmod u+x ~/bin/alexpass.rb` # give yourself permission to execute this script
+ * `mv ~/Downloads/alexpass.rb ~/bin/` # place this program in a suitable directory
+ * `chmod u+x ~/bin/alexpass.rb` # give yourself permission to execute this program
 
 Command-line Options
 --------------------
